@@ -101,6 +101,6 @@ app.get('*',function(req,res){
 // app.com/help
 // app.com/about
 
-app.listen(port,() =>{
+app.listen(port || 3000,() =>{
     console.log('Server is up on port 3000');
 });
